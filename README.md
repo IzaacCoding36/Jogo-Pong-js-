@@ -1,6 +1,6 @@
 # _Jogo Pong_ (java)
 Este repositório tem alguns códigos necessários para criar um jogo Pong utilizando a linguagem
-de JavaScript.
+de **JavaScript**.
 Você pode copiar algumas linhas de código e fazer algumas alterações caso resolva fazer de uma
 forma mais diferenciada, como colocar uma música, cores e sons diferentes.
 
@@ -10,4 +10,4 @@ aqui foram inteiramente criados e editados por mim, com base no que aprendi em m
 
 Confira o meu jogo e tente aprender a fazer um também: [link do jogo](https://editor.p5js.org/oliveira.izaac/sketches/UPPSkuk1e)
 
-Espero que você possa aprender algo com os arquivos disponibilizados aqui! **:)**
+_Espero que você possa aprender algo com os arquivos disponibilizados aqui! **:)**_
