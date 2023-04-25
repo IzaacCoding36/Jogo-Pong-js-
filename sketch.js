@@ -31,9 +31,9 @@ let raquetada;
 let trilha;
 
 function preload() {
- trilha = loadSound("Triage & Chewie Tesseract.mp3");
- ponto = loadSound("ponto.mp3");
- raquetada = loadSound("raquetada.mp3");
+ trilha = loadSound("alguma-música.mp3");
+ ponto = loadSound("algum-som.mp3");
+ raquetada = loadSound("algum-som.mp3");
   }
 
 function setup() {
