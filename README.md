@@ -5,8 +5,8 @@ Você pode copiar algumas linhas de código e fazer algumas alterações caso re
 forma mais **diferenciada**, como colocar uma música, cores e sons diferentes.
 
 Alguns arquivos serão necessários como complemento para fazer o jogo funcionar, como o arquivo
-"p5.collide.js" que foi retirado de um dos usuários do github aqui. Os demais arquivos disponibilizados
-aqui foram inteiramente criados e editados por mim, com base no que aprendi em minha escola.
+_"p5.collide.js"_ que foi retirado de um dos usuários do github aqui, e alguns sons e músicas.
+ **Os demais arquivos disponibilizados aqui foram inteiramente criados e editados por mim, com base no que aprendi em minha escola.**
 
 Confira o meu jogo e tente aprender a fazer um também: [link do jogo](https://editor.p5js.org/oliveira.izaac/sketches/UPPSkuk1e)
 
