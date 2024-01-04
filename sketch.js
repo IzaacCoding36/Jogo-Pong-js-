@@ -17,7 +17,7 @@ let raqueteAltura = 90;
 //variáveis do oponente
 let xRaqueteOponente = 585;
 let yRaqueteOponente = 150;
-let velocidadeyOponente;
+let velocidadeyOponente = 0;
 let colidiu = false;
 let chancedeErro = 0;
 
@@ -49,9 +49,9 @@ function draw() {
   mostraRaquete(xRaquete, yRaquete);
   mostraRaquete(xRaqueteOponente, yRaqueteOponente);
   movimentaMinhaRaquete();
-  movimentaRaqueteOponente();
-  //movimentaRaqueteOponenteMP();
-  //verificaColisaoRaquete();
+  //movimentaRaqueteOponente();
+  movimentaRaqueteOponenteMP();
+ //verificaColisaoRaquete();
   verificaColisaoRaquete(xRaquete,yRaquete);
   verificaColisaoRaquete(xRaqueteOponente,yRaqueteOponente);
   incluiPlacar();
@@ -82,25 +82,26 @@ function mostraRaquete(x,y){
     }
 
 function movimentaMinhaRaquete(){
-if (keyIsDown(UP_ARROW)){
+if (keyIsDown(87)){
   yRaquete -= 10;
 }
-if (keyIsDown(DOWN_ARROW)){
+if (keyIsDown(83)){
   yRaquete += 10;
  }
 }
 
 function movimentaRaqueteOponente(){
- velocidadeyOponente = yBolinha -yRaqueteOponente - raqueteComprimento / 2 - 30;
- yRaqueteOponente += velocidadeyOponente
+ velocidadeyOponente = yBolinha - yRaqueteOponente - raqueteComprimento / 2 - 30;
+ yRaqueteOponente += velocidadeyOponente;
+ chancedeErro - velocidadeyOponente;
  calculaChancedeErro();
 }
 
 function movimentaRaqueteOponenteMP(){
-if (keyIsDown(87)){
+if (keyIsDown(UP_ARROW)){
   yRaqueteOponente -= 10;
 }
-if (keyIsDown(83)){
+if (keyIsDown(DOWN_ARROW)){
   yRaqueteOponente += 10;
 }
  }
@@ -134,7 +135,7 @@ function incluiPlacar() {
 }
 
 function marcaPonto() {
- if (xBolinha > 590) {
+ if (xBolinha > 595) {
  meusPontos += 1;
    ponto.play();
 }

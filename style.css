@@ -1,7 +1,29 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
-}
+html, body {margin: 0; padding: 0;
+            background: radial-gradient(farthest-corner at right top,#000000,#916a00);
+            height: 100%; width: 100%;
+            display: flex;}
+
+canvas {display: block; 
+        position: relative; left: 28%;
+        border: solid 2px yellow;
+        box-shadow: 0px 0px 30px black;}
+
+.Title {background: black;
+         border: solid 2px #916a00;
+         box-shadow: 0px 0px 15px yellow;
+         border-radius: 50%;
+         color: white;
+         position: relative; left: 125px;}
+
+.Song {position: relative; left: 125px; top: 100px;
+      color: white;}
+
+.Controls {position: relative; left: 125px;
+            color: white;
+            background: black;
+            padding: 25px;
+            border: solid 2px #916a00;
+            box-shadow: 0px 0px 15px yellow;}
+
+.Credits {position: relative; left: 125px; top: 150px;
+           color: white;}
