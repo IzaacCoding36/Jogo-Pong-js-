@@ -4,6 +4,11 @@ html, body {margin: 0; padding: 0;
             font-family: 'Poppins';
             display: flex;}
 
+@keyframes glow { 0% {box-shadow: 0px 0px 15px #b38b11;}
+                  50% {box-shadow: 0px 0px 15px yellow;}
+                  100% {box-shadow: 0px 0px 15px #b38b11;}
+}
+
 canvas {display: block; 
         position: relative; left: 13%;
         border: solid 2px yellow;
@@ -14,6 +19,7 @@ canvas {display: block;
          box-shadow: 0px 0px 15px yellow;
          border-radius: 50%;
          color: white;
+         animation-name: glow; animation-duration: 5s; animation-delay: 1.5; animation-iteration-count: infinite;
          position: relative; left: 25px;}
 
 .Song {position: relative; left: 25px; top: 100px;
@@ -24,6 +30,7 @@ canvas {display: block;
             background: black;
             padding: 25px;
             border: solid 2px #916a00;
+            animation-name: glow; animation-duration: 5s; animation-delay: 1.5; animation-iteration-count: infinite;
             box-shadow: 0px 0px 15px yellow;}
 
 .Credits {position: relative; left: 25px; top: 150px;
