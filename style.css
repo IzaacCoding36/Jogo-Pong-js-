@@ -1,5 +1,6 @@
 html, body {margin: 0; padding: 0;
             background: radial-gradient(farthest-corner at right top,#000000,#301f00);
+            background-color: #301f00;
             height: 100%; width: 100%;
             font-family: 'Poppins';
             cursor: default;
