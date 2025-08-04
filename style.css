@@ -2,7 +2,7 @@ html, body {margin: 0; padding: 0;
             background: radial-gradient(farthest-corner at right top,#000000,#301f00);
             background-color: #301f00;
             height: 100%; width: 100%;
-            font-family: 'Poppins';
+            font-family: 'Poppins', sans-serif;
             cursor: default;
             display: flex;}
 
@@ -11,30 +11,48 @@ html, body {margin: 0; padding: 0;
                   100% {box-shadow: 0px 0px 15px #b38b11;}
 }
 
+@keyframes pulse { 0% {transform: scale(1);}
+                   50% {transform: scale(1.05);}
+                   100% {transform: scale(1);}
+}
+
 canvas {display: block; 
         position: relative; left: 13%;
-        border: solid 2px yellow;
+        border: solid 3px yellow;
         cursor: pointer;
-        box-shadow: 0px 0px 30px black;}
+        box-shadow: 0px 0px 30px black, inset 0px 0px 10px rgba(255,255,0,0.2);
+        border-radius: 5px;}
 
-.Title {background: black;
-         border: solid 2px #916a00;
-         box-shadow: 0px 0px 15px yellow;
+.Title {background: linear-gradient(45deg, #000000, #1a1a1a);
+         border: solid 3px #916a00;
+         box-shadow: 0px 0px 20px yellow;
          border-radius: 50%;
          color: white;
-         animation-name: glow; animation-duration: 5s; animation-delay: 1.5; animation-iteration-count: infinite;
-         position: relative; left: 25px;}
+         animation: glow 5s infinite, pulse 3s infinite;
+         position: relative; left: 25px;
+         padding: 20px 40px;
+         text-shadow: 2px 2px 4px rgba(0,0,0,0.8);}
 
 .Song {position: relative; left: 25px; top: 100px;
-      color: white;}
+      color: #cccccc;
+      font-size: 14px;
+      font-style: italic;}
 
 .Controls {position: relative; left: 25px;
             color: white;
-            background: black;
-            padding: 25px;
+            background: linear-gradient(135deg, #000000, #1a1a1a);
+            padding: 20px 30px;
+            margin: 10px 0;
             border: solid 2px #916a00;
-            animation-name: glow; animation-duration: 5s; animation-delay: 1.5; animation-iteration-count: infinite;
-            box-shadow: 0px 0px 15px yellow;}
+            border-radius: 10px;
+            animation: glow 5s infinite;
+            box-shadow: 0px 0px 15px rgba(255,255,0,0.3);
+            transition: transform 0.3s ease;
+            max-width: 400px;}
+
+.Controls:hover {transform: translateX(5px);
+                 box-shadow: 0px 0px 25px rgba(255,255,0,0.5);}
 
 .Credits {position: relative; left: 25px; top: 150px;
-           color: white;}
+           color: #cccccc;
+           font-size: 12px;}
