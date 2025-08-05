@@ -1,6 +1,10 @@
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=500&size=17&pause=1000&color=F7EF00&background=5A3415&center=true&vCenter=true&width=1000&height=100&lines=Jogo+Pong;p5.js)](https://git.io/typing-svg)
+
+---
+
 # _Jogo Pong_
-Este repositório tem alguns códigos necessários para criar um jogo Pong utilizando a linguagem
-de **JavaScript**.
+Este repositório apresenta um jogo Pong criado usando **JavaScript** na plataforma **[p5.js](https://editor.p5js.org/)**. 
+
 Você pode copiar algumas linhas de código e fazer algumas alterações caso resolva fazer de uma
 forma mais **diferenciada**, como colocar uma música, cores e sons diferentes.
 
